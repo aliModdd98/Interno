@@ -1,4 +1,3 @@
-import React from "react";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import t1 from "./../../assets/testimonial/01.png";
@@ -6,7 +5,7 @@ import t2 from "./../../assets/testimonial/02.png";
 import t3 from "./../../assets/testimonial/03.png";
 import t4 from "./../../assets/testimonial/04.png";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 const Testimonial = () => {
   const testArray = [
     {

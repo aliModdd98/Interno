@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "./../../assets/logo.svg";
 import { RiMenu4Line } from "react-icons/ri";
 const NavBar = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <section className="mt-[80px] xl:mt-[150px] relative z-20">

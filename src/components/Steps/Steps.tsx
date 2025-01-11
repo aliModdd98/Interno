@@ -1,4 +1,3 @@
-import React from "react";
 import Step from "../Step/Step";
 import { RiCompasses2Fill } from "react-icons/ri";
 import { SlMagicWand } from "react-icons/sl";
