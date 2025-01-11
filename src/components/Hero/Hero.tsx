@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { FaArrowRight } from "react-icons/fa6";
-import heroBgImage from "./../../assets/hero/bg.jpg";
+// import heroBgImage from "./../../assets/hero/bg.jpg";
 const Hero = () => {
   return (
     <main className="max-w-[1920px] mx-auto bg-white overflow-hidden">
@@ -9,8 +9,8 @@ const Hero = () => {
         style={{ backgroundImage: "url(./src/assets/grid.png)" }}
       ></div>
       <section
-        className="h-[640px] xl:h-[840px] bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
-        style={{ backgroundImage: `url(${heroBgImage})` }}
+        className="h-[640px] bgHero xl:h-[840px] bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+        // style={{ backgroundImage: `url(${heroBgImage})` }}
       >
         <div className="container mx-auto h-full flex items-center justify-center xl:justify-start ">
           <div className="w-[567px] flex flex-col items-center xl:text-left lg:items-start">
